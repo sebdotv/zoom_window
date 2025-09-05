@@ -19,7 +19,7 @@ impl MainMap {
     }
 
     fn zoom_buttons(ui: &Ui, map_memory: &mut MapMemory) {
-        Window::new("Map")
+        Window::new("Zoom")
             .collapsible(false)
             .resizable(false)
             .title_bar(false)
