@@ -1,0 +1,9 @@
+[package]
+name = "zoom_window"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.32.2"
+egui = "0.32.2"
+walkers = "0.45.0"
