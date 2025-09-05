@@ -6,4 +6,6 @@ edition = "2024"
 [dependencies]
 eframe = "0.32.2"
 egui = "0.32.2"
+geo = "0.31.0"
+uom = "0.37.0"
 walkers = "0.45.0"
