@@ -12,6 +12,7 @@ impl ZoomWindow {
     pub fn show(&mut self, ctx: &Context) {
         Window::new(format!("Zoomed Map #{}", self.id))
             .resizable(true)
+            .title_bar(false)
             .show(ctx, |ui| {
                 self.map.show(ui);
             });
