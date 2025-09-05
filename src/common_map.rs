@@ -1,7 +1,7 @@
 use crate::draw_plugin::DrawPlugin;
 use egui::Ui;
 use std::sync::{Arc, Mutex};
-use walkers::{HttpTiles, Map, MapMemory, lat_lon, lon_lat};
+use walkers::{HttpTiles, Map, MapMemory, lat_lon};
 
 pub type SharedTiles = Arc<Mutex<HttpTiles>>;
 pub type SharedDrawPlugin = Arc<Mutex<DrawPlugin>>;
